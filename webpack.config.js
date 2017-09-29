@@ -26,8 +26,8 @@ module.exports = env => {
       extensions: ['.js', '.json']
     },
     externals: {
-      react: 'react',
-      'prop-types': 'prop-types'
+      react: 'umd react',
+      'prop-types': 'umd prop-types'
     }
   }
 }
