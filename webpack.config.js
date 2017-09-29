@@ -23,8 +23,8 @@ module.exports = {
     extensions: ['.js', '.json']
   },
   externals: {
-    react: 'react',
-    'prop-types': 'prop-types'
+    react: 'React',
+    'prop-types': 'PropTypes'
   },
   plugins: []
 }
